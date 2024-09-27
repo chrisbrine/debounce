@@ -2,6 +2,14 @@
 
 This is a basic module for allowing for decorators for either debouncing or throttling the running of it so it isn't ran too often. This is especially useful for REST APIs or intense functionality but can be used for whatever wanted.
 
+It should work fine in most frameworks as well.
+
+# How to install:
+
+Run the following in a node instance:
+
+- npm i @strbjun/debounce
+
 # How to use:
 
 ## Debounce
