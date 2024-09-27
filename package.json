@@ -1,0 +1,48 @@
+{
+  "name": "@strbjun/debounce",
+  "version": "0.1.0",
+  "description": "Decorators for functions to allow for either debouncing or throttling of results",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "debounce",
+    "throttle",
+    "decorator",
+    "typescript",
+    "functions"
+  ],
+  "author": "Chris Brine <chrisbrine.web@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisbrine/debounce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisbrine/debounce/issues"
+  },
+  "homepage": "https://github.com/chrisbrine/debounce#readme",
+  "license": "ISC",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.ts"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.13",
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0",
+    "prettier": "3.3.3",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.7.0"
+  }
+}
